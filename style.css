@@ -1,0 +1,391 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*this comment says that this code below belongs to nadim*/
+
+.title {
+	color: white;
+}
+
+* {
+	margin:0;
+	padding: 0;
+    background-image: url(img/nadim.png) no-repeat;
+    background-size: cover ;
+  }
+.wrapper {
+
+    position: absolute; 
+    left: 50% ;
+    top: 40% ;
+    transform: translateX(-50%) translateY(-50%) ;
+    text-align: center;
+    font-size: 120px ;
+    color: black ;
+    font-style: inherit; 
+    text-transform: uppercase;
+    letter-spacing: 6px ; 
+    animation: text 4s 1 ;
+
+}
+
+.data {
+    position: absolute; 
+    left: 50% ;
+    top: 52% ;
+    transform: translateX(-50%) translateY(-50%) ;
+    text-align: center;
+    font-size: 22px ;
+    color: #871111 ;
+    font-style: initial;
+    animation: text 3s 1 ;
+}
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -40px ;
+        }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+
+    }
+}
+.base {
+    position: absolute; 
+    left: 50% ;
+    top: 61% ;
+    transform: translateX(-50%) translateY(-50%) ;
+    text-align: center;
+    font-size: 40px ;
+    color: rgb(64,64,64) ;
+    font-style: initial;
+}
+
+nav {
+	width: 100%;
+	height: 100px ;
+	background-color: rgb(24,24,24);
+
+}
+
+ul {
+	margin-left: 60px;
+    }
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 100px ;
+
+}
+
+ul li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: source sans pro;
+    font-weight: lighter;
+	color: white ;
+	padding: 0 20px;
+
+}
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s ;
+}
+.cool-link:hover::after {
+    width: 100% ;
+    transition: width .3s ;
+}
+
+.title1{
+    padding-top: 90px ;
+    text-align: left;
+    color: rgb(192,0,0) ; 
+    font-size: 25px ;
+    font-style: inherit;
+    margin: 0 auto ;
+    width: 1310px ; 
+    }
+.para{
+    padding-top: 10px ;
+    padding-right:800px ; 
+    text-align: left;
+    color: black ; 
+    font-size: 18px ;
+    font-style: inherit;
+    margin: 0 auto ;
+    width: 500px ;
+}
+.apply {
+    padding-top: 10px ;
+    padding-right:800px ; 
+    text-align: left;
+    color: black ; 
+    font-size: 17px ;
+    font-style: inherit;
+    margin: 0 auto ;
+    width: 499px ;
+}
+.part {
+    position: absolute; 
+    left: 50% ;
+    top: 80% ;
+    transform: translateX(-50%) translateY(-50%) ;
+    text-align: center;
+    font-size: 20px ;
+    font-style: inherit; 
+    text-transform: uppercase;
+    letter-spacing: 5px ; 
+    width: 190px ;
+    height: 50px;
+    background-color: white;
+    transition: width .3s ;
+    display : block;
+    text-decoration: none;
+    font-family: source sans pro;
+    padding: 0 20px;
+    box-shadow: 0px 0px 0px 0px  ;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.image {
+    transform: translateX(39.8%) translateY(-71.2%) ;
+    width: 710px;
+    height: 480px;
+    padding: 20px;
+    margin:20px auto ;
+    box-shadow: 0px 0px 0px 0px  ;
+    background-size: 100% ;
+    background-image: url(img/addd.jpg);
+ }
+.image2 {
+    transform: translateX(-62.8%) translateY(-76.3%) ;
+    width: 560px;
+    height: 470px;
+    padding: 20px;
+    margin:20px auto ;
+    box-shadow: 0px 0px 0px 0px   ;
+    background-size: 110% ;
+    background-image: url(img/nadim.png) ;
+}
+.title2 {
+    padding-top: -10px ;
+    padding-bottom: 3000px ;
+    transform: translateX(5%) translateY(-28%) ;
+    text-align: right;
+    color: rgb(192,0,0) ; 
+    font-size: 25px ;
+    font-style: inherit;
+    margin: 0 auto ;
+    width: 600px ;
+
+}
+.paragraphe {
+    transform: translateX(47%) translateY(-1280%);
+    padding-top: 10px ;
+    padding-right:10px ; 
+    text-align: left;
+    color: black ; 
+    font-size: 18px ;
+    font-style: inherit;
+    margin: 0 auto ;
+    width: 500px ;
+}
+li-1 {
+    list-style: none;
+    margin: 10px 30px ;
+    display: inline-block;
+    font-size: 20px ;
+    padding: 20px 20px ;
+    color: #fff ;
+    border: 1px solid #fff;
+    border-radius: 50% ;
+    transition: .5s ;
+}
+.button {
+    position: absolute;
+    top: 40% ;
+    left: 50% ;
+    transform: translate(-62%, 93%);
+}
+li-1:hover {
+    color: #292929;
+    border:1px solid #292929;
+    transition: .5s;
+}
+.contact {
+    position: absolute; 
+    left: 50% ;
+    top: 40% ;
+    transform: translateX(-53%) translateY(-50%) ;
+    text-align: center;
+    font-size: 70px ;
+    color: white ;
+    font-style: inherit; 
+    text-transform: capitalize;  
+    letter-spacing: 6px ; 
+    animation: text 3s 1 ;
+}
+.signup-form{
+  height: 510px ;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-color: black ;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+.signup-form h1{
+  margin-top: 100px;
+  font-style: inherit; 
+  text-transform: uppercase;
+  letter-spacing: 2px ; 
+  color: #DDEAE4;
+  font-size: 40px;
+}
+.signup-form input{
+  
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "montserrat",sans-serif;
+}
+.txtb{
+  margin: 20px 0;
+  background: white;
+  border-radius: 6px;
+}
+.signup-btn{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #487eb0;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.signup-btn:hover{
+  transform: scale(0.96);
+}
+
+
